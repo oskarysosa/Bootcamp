@@ -1,0 +1,9 @@
+use bootcamp
+db.createCollection("usuarios")
+show dbs
+show collections
+db.usuarios.insertMany([   { nombre: "Juan", edad: 25, correo: "juan@example.com" },   { nombre: "María", edad: 30, correo: "maria@example.com" },   { nombre: "Carlos", edad: 28, correo: "carlos@example.com" } ])
+db.usuarios.find()
+db.usuarios.find()
+use bootcamp
+db.usuarios.find()
